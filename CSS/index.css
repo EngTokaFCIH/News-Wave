@@ -1,0 +1,80 @@
+body{
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#Filter select,
+#Filter input{
+    background-color: transparent;
+    border: 1px solid #4B79A1;
+    transition-duration: 0.3s;
+}
+
+#Filter select:focus,
+#Filter input:focus{
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#Filter form button{
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(169, 199, 226);
+    transition-duration: 0.5s;
+}
+
+#Filter form button:hover{
+    transform: scale(40px);
+}
+
+#Data .card{
+    height: 420px;
+    overflow: hidden;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(169, 199, 226);
+    border: none;
+    outline: none;
+    transition-duration: 0.5s;
+}
+
+#Data .card:hover{
+    transform: translateY(-10px);
+    box-shadow: rgba(82, 82, 99, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    color:  #4B79A1;
+}
+
+#Data .card .image {
+    overflow: hidden;
+}
+
+#Data .card:hover .image img{
+    transform: scale(0.8);
+    transition-duration: 0.5s;
+}
+
+#Data .card:hover .image img{
+    transform: scale(1.03);
+}
+
+#Data .card .card-body p{
+    width: 100%;
+    padding: 0;
+}
+
+#Data .card .card-body a{
+    background-color: #4B79A1;
+    transition-duration: 0.5s;
+}
+
+#Data .card:hover .card-body a{
+    background-color: #4B79A1;
+}
+
+nav ul li a{
+    cursor: pointer;
+}
